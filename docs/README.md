@@ -7,7 +7,7 @@ supertree and published as a static site on GitHub Pages.
 The site has four tabs, each an interactive Cytoscape view:
 
 1. **Reference Supertree** — the CTann v9 cell-type supertree (the base every
-   other view is built on).
+   other view is built on). 
 2. **HRApop Comparison** — HRApop v1.1 lung Azimuth vs Pan-human Azimuth
    populations overlaid on the tree.
 3. **HLCA Node Comparison** — Azimuth vs Pan-human Azimuth exact-CLID
