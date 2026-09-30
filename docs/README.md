@@ -13,7 +13,7 @@ The Human Reference Atlas (HRA) v2.5 includes 4,807 anatomical structures, 1,347
 
 ## GitHub Repository
 
-The repo is structured in the following way:
+The [repo](https://github.com/cns-iu/hra-ctann-supporting-information) is structured in the following way:
 ```
 ├── data
 ├── docs
@@ -46,7 +46,7 @@ RIBCA: https://purl.humanatlas.io/ctann/ribca/v1.0
 STELLAR: https://purl.humanatlas.io/ctann/stellar/v1.0  
 CDE Spatial Omics: https://purl.humanatlas.io/ctann/vccf/v1.2  
 
-<!-- Supertree [to be added] --> 
+The raw Supertree data is available here: https://github.com/cns-iu/hra-ctann-supporting-information/blob/main/supertree/data/ctann-v9.csv
 
 ## Link to Interactive Supertree Visualization
 The interactive Supertree can be found [here](https://cns-iu.github.io/hra-ctann-supporting-information/supertree/).
