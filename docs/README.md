@@ -46,7 +46,7 @@ RIBCA: https://purl.humanatlas.io/ctann/ribca/v1.0
 STELLAR: https://purl.humanatlas.io/ctann/stellar/v1.0  
 CDE Spatial Omics: https://purl.humanatlas.io/ctann/vccf/v1.2  
 
-Supertree [to be added]
+<!-- Supertree [to be added] --> 
 
 ## Link to Interactive Supertree Visualization
 The interactive Supertree can be found [here](https://cns-iu.github.io/hra-ctann-supporting-information/supertree/).
