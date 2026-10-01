@@ -17,7 +17,6 @@ The [repo](https://github.com/cns-iu/hra-ctann-supporting-information) is struct
 ```
 ├── data
 ├── docs
-├── figures
 ├── notebooks
 ├── supertree
 ```
@@ -25,8 +24,6 @@ The [repo](https://github.com/cns-iu/hra-ctann-supporting-information) is struct
 The **data** folder contains the color codes for the anatomical structures and supertree, as well as the raw table for Table 1 and Table 2.
 
 The **docs** folder contains the supertree files and ReadMe to generate this website.
-
-The **figures** contains the figure files for Figures 1 and 2 (png and svg formats).
 
 The **notebooks** contains the underlying code for Figures 1 and 2 and Tables 1 and 2.
 
