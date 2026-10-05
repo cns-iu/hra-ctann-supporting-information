@@ -15,19 +15,17 @@ The Human Reference Atlas (HRA) v2.5 includes 4,807 anatomical structures, 1,347
 
 The [repo](https://github.com/cns-iu/hra-ctann-supporting-information) is structured in the following way:
 ```
+├── code
 ├── data
 ├── docs
-├── notebooks
-├── supertree
 ```
+
+The **code** folder contains the scripts and notebooks used to generate the manuscript figures and tables, as well as the source code for the interactive Supertree visualization.
 
 The **data** folder contains the color codes for the anatomical structures and supertree.
 
-The **docs** folder contains the supertree files and ReadMe to generate this website.
+The **docs** folder contains generated static files published through GitHub Pages. These files are build outputs and should not be edited directly. Note that the Supertree source code and build instructions are located in code/supertree/. Running the build script generates the published site under docs/supertree/.
 
-The **notebooks** contains the underlying code for Figures 1 and 2 and Tables 1 and 2.
-
-The **supertree** contains the code for the interactive Supertree visualization tool.
 
 ## Data Availability
 
