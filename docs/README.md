@@ -17,12 +17,14 @@ The [repo](https://github.com/cns-iu/hra-ctann-supporting-information) is struct
 ```
 ├── code
 ├── docs
+├── supertree
 ```
 
 The **code** folder contains the scripts and notebooks used to generate the manuscript figures and tables, as well as the source code for the interactive Supertree visualization.
 
 The **docs** folder contains generated static files published through GitHub Pages. These files are build outputs and should not be edited directly. Note that the Supertree source code and build instructions are located in `code/supertree/`. Running the build script generates the published site under `docs/supertree/`.
 
+The **supertree** folder contains the raw data spreadsheet and files to create the supertree visualization.
 
 ## Data Availability
 
