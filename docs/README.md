@@ -1,4 +1,4 @@
-# Constructing, Validating, and Using Human Reference Atlas Cell Type Annotation Crosswalks
+# Compiling, Validating, and Using Human Reference Atlas Cell Type Annotation Crosswalks
 
 Nicole Vasilevsky<sup>1,2*</sup>, Aleix Puig-Barbe<sup>3*</sup>, Andreas Bueckle<sup>1</sup>, Ellen M. Quardokus<sup>1</sup>, Yongxin Kong<sup>1</sup>, Divya Prasanth  Paraman<sup>1</sup>, Jie Zheng<sup>4</sup>, Yongqun He<sup>4</sup>, Yashvardhan Jain<sup>1</sup>, Bruce W. Herr II<sup>1</sup>, Katy Börner<sup>1*</sup>
 
@@ -9,20 +9,17 @@ Nicole Vasilevsky<sup>1,2*</sup>, Aleix Puig-Barbe<sup>3*</sup>, Andreas Bueckle
 
 ## Abstract
 
-The Human Reference Atlas (HRA) v2.5 includes 4,807 anatomical structures, 1,347 cell types, and 2,215 biomarkers (genes, proteins, lipids); 81 organs with 1,392 anatomical structures modeled in three dimensions (3D). Mapping new data into the HRA requires 3D spatial registration and/or cell type annotation (CTann). Many CTann tools exist but few use cell type names linked to Cell Ontology (CL)—making comparisons across tools, tissues, and organs difficult. The HRA supports five transcriptomics CTann tools (Azimuth, CellTypist, popV, FR-Match, Pan-Human Azimuth), four sc-proteomics CTann tools (DeepCell Types, DeepCell Types-HuBMAP, Robust Image-Based Cell Annotator [RIBCA], and SpaTial cELl LeARning [STELLAR]), plus a Cell Distance Explorer (CDE) Spatial Omics collection covering previously published annotations across 12 tissue types with 47,349,496 cells. Assigned cell types differ in number, resolution, and coverage. This paper details how 10 crosswalks were constructed, validated, and used to compile a ‘Supertree’ that can be used to compare CTann across organs and technologies in support of reference atlas constitution and usage. All data and code can be accessed at https://cns-iu.github.io/hra-ctann-supporting-information. 
+The Human Reference Atlas (HRA) v2.5 includes 4,807 anatomical structures, 1,347 cell types, and 2,215 biomarkers (genes, proteins, lipids); 81 organs with 1,392 anatomical structures modeled in three dimensions (3D). Mapping new data into the HRA requires 3D spatial registration and/or cell type annotation (CTann). Many CTann tools exist but few use cell type names linked to Cell Ontology (CL)—making comparisons across tools, tissues, and organs difficult. The HRA supports five transcriptomics CTann tools (Azimuth, CellTypist, popV, FR-Match, Pan-Human Azimuth), four sc-proteomics CTann tools (DeepCell Types, DeepCell Types-HuBMAP, Robust Image-Based Cell Annotator [RIBCA], and SpaTial cELl LeARning [STELLAR]), plus a Cell Distance Explorer (CDE) Spatial Omics collection covering previously published annotations across 12 tissue types with 47,349,496 cells. Assigned cell types differ in number, resolution, and coverage. This paper details how 10 crosswalks were constructed, validated, and used to compile a ‘Supertree’ that can be used to compare CTann across organs and technologies in support of reference atlas constitution and usage. All data and code can be accessed at [https://cns-iu.github.io/hra-ctann-supporting-information](https://cns-iu.github.io/hra-ctann-supporting-information). 
 
 ## GitHub Repository
 
 The [repo](https://github.com/cns-iu/hra-ctann-supporting-information) is structured in the following way:
 ```
 ├── code
-├── data
 ├── docs
 ```
 
 The **code** folder contains the scripts and notebooks used to generate the manuscript figures and tables, as well as the source code for the interactive Supertree visualization.
-
-The **data** folder contains the color codes for the anatomical structures and supertree.
 
 The **docs** folder contains generated static files published through GitHub Pages. These files are build outputs and should not be edited directly. Note that the Supertree source code and build instructions are located in `code/supertree/`. Running the build script generates the published site under `docs/supertree/`.
 
