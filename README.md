@@ -29,16 +29,16 @@ The **supertree** folder contains the raw data spreadsheet and files to create t
 ## Data Availability
 
 The following Digital Objects are described in this paper and are available at the link below:  
-Azimuth: https://purl.humanatlas.io/ctann/azimuth/v1.4  
-CellTypist: https://purl.humanatlas.io/ctann/celltypist/v1.3  
-DeepCell Types: https://purl.humanatlas.io/ctann/deepcelltypes/v1.2  
-DeepCell Types-HuBMAP: https://purl.humanatlas.io/ctann/deepcelltypes-hubmap/v1.2  
-FR-Match: https://purl.humanatlas.io/ctann/frmatch/v1.0  
-Pan-Human Azimuth: https://purl.humanatlas.io/ctann/pan-human-azimuth/v1.2  
-popV: https://purl.humanatlas.io/ctann/popv/v1.4  
-RIBCA: https://purl.humanatlas.io/ctann/ribca/v1.0  
-STELLAR: https://purl.humanatlas.io/ctann/stellar/v1.0  
-CDE Spatial Omics: https://purl.humanatlas.io/ctann/vccf/v1.2  
+Azimuth: [https://purl.humanatlas.io/ctann/azimuth/v1.4](https://purl.humanatlas.io/ctann/azimuth/v1.4)    
+CellTypist: [https://purl.humanatlas.io/ctann/celltypist/v1.3](https://purl.humanatlas.io/ctann/celltypist/v1.3)    
+DeepCell Types: [https://purl.humanatlas.io/ctann/deepcelltypes/v1.2](https://purl.humanatlas.io/ctann/deepcelltypes/v1.2)   
+DeepCell Types-HuBMAP: [https://purl.humanatlas.io/ctann/deepcelltypes-hubmap/v1.2](https://purl.humanatlas.io/ctann/deepcelltypes-hubmap/v1.2)    
+FR-Match: [https://purl.humanatlas.io/ctann/frmatch/v1.0](https://purl.humanatlas.io/ctann/frmatch/v1.0)   
+Pan-Human Azimuth: [https://purl.humanatlas.io/ctann/pan-human-azimuth/v1.2](https://purl.humanatlas.io/ctann/pan-human-azimuth/v1.2)    
+popV: [https://purl.humanatlas.io/ctann/popv/v1.4](https://purl.humanatlas.io/ctann/popv/v1.4)    
+RIBCA: [https://purl.humanatlas.io/ctann/ribca/v1.0](https://purl.humanatlas.io/ctann/ribca/v1.0)  
+STELLAR: [https://purl.humanatlas.io/ctann/stellar/v1.0](https://purl.humanatlas.io/ctann/stellar/v1.0)   
+CDE Spatial Omics: [https://purl.humanatlas.io/ctann/vccf/v1.2](https://purl.humanatlas.io/ctann/vccf/v1.2)    
 
 The raw Supertree data is available here: [https://github.com/cns-iu/hra-ctann-supporting-information/tree/main/data/CTann-Supertree-v10.csv](https://github.com/cns-iu/hra-ctann-supporting-information/tree/main/data/CTann-Supertree-v10.csv)
 
