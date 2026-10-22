@@ -8,6 +8,8 @@ cell,CL:0000000,cell,other-non-adult,,other-non-adult,extraembryonic cell,CL:000
 cell,CL:0000000,cell,other-non-adult,,other-non-adult,extraembryonic cell,CL:0000349,extraembryonic cell,trophoblast cell,CL:0000351,trophoblast cell,,,,,,,,,,,,,,,,,,,,,,,,,azimuth,sc_transcriptomics
 cell,CL:0000000,cell,other-non-adult,,other-non-adult,extraembryonic cell,CL:0000349,extraembryonic cell,trophoblast cell,CL:0000351,trophoblast cell,trophoblast cell',CL:0002488,trophoblast cell',,,,,,,,,,,,,,,,,,,,,,azimuth,sc_transcriptomics
 cell,CL:0000000,cell,other-non-adult,,other-non-adult,extraembryonic cell,CL:0000349,extraembryonic cell,trophoblast cell,CL:0000351,trophoblast cell,extravillous trophoblast,CL:0008036,extravillous trophoblast,,,,,,,,,,,,,,,,,,,,,,azimuth,sc_transcriptomics
+cell,CL:0000000,cell,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,azimuth,sc_transcriptomics
+cell,CL:0000000,cell,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,celltypist,sc_transcriptomics
 cell,CL:0000000,cell,other-organ-specific,,other-organ-specific,tracheobronchial serous cell,CL:0019001,tracheobronchial serous cell,serous secreting cell of bronchus submucosal gland,CL:4033005,serous secreting cell of bronchus submucosal gland,,,,,,,,,,,,,,,,,,,,,,,,,celltypist,sc_transcriptomics
 cell,CL:0000000,cell,dynamic cell,,dynamic cell,transit amplifying cell,CL:0009010,transit amplifying cell,,,,,,,,,,,,,,,,,,,,,,,,,,,,celltypist,sc_transcriptomics
 cell,CL:0000000,cell,perivascular cell,CL:4033054,perivascular cell,mural cell,CL:0008034,mural cell,,,,,,,,,,,,,,,,,,,,,,,,,,,,celltypist,sc_transcriptomics
@@ -19,6 +21,7 @@ cell,CL:0000000,cell,dynamic cell,,dynamic cell,transit amplifying cell,CL:00090
 cell,CL:0000000,cell,mature differentiated cell,,mature differentiated cell,secretory cell,CL:0000151,secretory cell,seromucus secreting cell,CL:0000159,seromucus secreting cell,serous secreting cell,CL:0000313,serous secreting cell,nasal serous secreting cell,CL:4042016,nasal serous secreting cell,,,,,,,,,,,,,,,,,,,celltypist,sc_transcriptomics
 cell,CL:0000000,cell,cell of skeletal muscle,CL:0000188,cell of skeletal muscle,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,celltypist,sc_transcriptomics
 cell,CL:0000000,cell,mature differentiated cell,,mature differentiated cell,secretory cell,CL:0000151,secretory cell,seromucus secreting cell,CL:0000159,seromucus secreting cell,mucus secreting cell,CL:0000319,mucus secreting cell,,,,,,,,,,,,,,,,,,,,,,celltypist,sc_transcriptomics
+cell,CL:0000000,cell,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,deepcelltypes,sc_proteomics
 cell,CL:0000000,cell,dynamic cell,,dynamic cell,abnormal cell,CL:0001061,abnormal cell,neoplastic cell,CL:0001063,neoplastic cell,,,,,,,,,,,,,,,,,,,,,,,,,deepcelltypes,sc_proteomics
 cell,CL:0000000,cell,mature differentiated cell,,mature differentiated cell,endocrine cell,CL:0000163,endocrine cell,,,,,,,,,,,,,,,,,,,,,,,,,,,,deepcelltypes,sc_proteomics
 cell,CL:0000000,cell,dynamic cell,,dynamic cell,transit amplifying cell,CL:0009010,transit amplifying cell,,,,,,,,,,,,,,,,,,,,,,,,,,,,deepcelltypes,sc_proteomics
@@ -26,6 +29,7 @@ cell,CL:0000000,cell,other-non-adult,,other-non-adult,extraembryonic cell,CL:000
 cell,CL:0000000,cell,dynamic cell,,dynamic cell,transit amplifying cell,CL:0009010,transit amplifying cell,,,,,,,,,,,,,,,,,,,,,,,,,,,,deepcelltypes-hubmap,sc_proteomics
 cell,CL:0000000,cell,dynamic cell,,dynamic cell,abnormal cell,CL:0001061,abnormal cell,neoplastic cell,CL:0001063,neoplastic cell,,,,,,,,,,,,,,,,,,,,,,,,,deepcelltypes-hubmap,sc_proteomics
 cell,CL:0000000,cell,mature differentiated cell,,mature differentiated cell,endocrine cell,CL:0000163,endocrine cell,,,,,,,,,,,,,,,,,,,,,,,,,,,,deepcelltypes-hubmap,sc_proteomics
+cell,CL:0000000,cell,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,deepcelltypes-hubmap,sc_proteomics
 cell,CL:0000000,cell,other-organ-specific,,other-organ-specific,tracheobronchial serous cell,CL:0019001,tracheobronchial serous cell,,,,,,,,,,,,,,,,,,,,,,,,,,,,frmatch,sc_transcriptomics
 cell,CL:0000000,cell,mature differentiated cell,,mature differentiated cell,secretory cell,CL:0000151,secretory cell,seromucus secreting cell,CL:0000159,seromucus secreting cell,serous secreting cell,CL:0000313,serous secreting cell,,,,,,,,,,,,,,,,,,,,,,frmatch,sc_transcriptomics
 cell,CL:0000000,cell,dynamic cell,,dynamic cell,transit amplifying cell,CL:0009010,transit amplifying cell,transit amplifying cell of gut,CL:4047017,transit amplifying cell of gut,,,,,,,,,,,,,,,,,,,,,,,,,pan-human-azimuth,sc_transcriptomics
@@ -42,6 +46,7 @@ cell,CL:0000000,cell,cell of skeletal muscle,CL:0000188,cell of skeletal muscle,
 cell,CL:0000000,cell,other-non-adult,,other-non-adult,extraembryonic cell,CL:0000349,extraembryonic cell,trophoblast cell,CL:0000351,trophoblast cell,mononuclear cytotrophoblast cell,CL:0000523,mononuclear cytotrophoblast cell,,,,,,,,,,,,,,,,,,,,,,pan-human-azimuth,sc_transcriptomics
 cell,CL:0000000,cell,supporting cell,cell,supporting cell,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,pan-human-azimuth,sc_transcriptomics
 cell,CL:0000000,cell,mature differentiated cell,,mature differentiated cell,ciliated cell,CL:0000064,ciliated cell,epidermal ciliary cell,CL:0007018,epidermal ciliary cell,,,,,,,,,,,,,,,,,,,,,,,,,pan-human-azimuth,sc_transcriptomics
+cell,CL:0000000,cell,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,pan-human-azimuth,sc_transcriptomics
 cell,CL:0000000,cell,mature differentiated cell,,mature differentiated cell,secretory cell,CL:0000151,secretory cell,,,,,,,,,,,,,,,,,,,,,,,,,,,,popv,sc_transcriptomics
 cell,CL:0000000,cell,other-non-adult,,other-non-adult,embryonic cell (metazoa),CL:0002321,embryonic cell (metazoa),ectodermal cell,CL:0000221,ectodermal cell,surface ectodermal cell,CL:0000114,surface ectodermal cell,,,,,,,,,,,,,,,,,,,,,,popv,sc_transcriptomics
 cell,CL:0000000,cell,mature differentiated cell,,mature differentiated cell,secretory cell,CL:0000151,secretory cell,seromucus secreting cell,CL:0000159,seromucus secreting cell,mucus secreting cell,CL:0000319,mucus secreting cell,,,,,,,,,,,,,,,,,,,,,,popv,sc_transcriptomics
@@ -63,3 +68,4 @@ cell,CL:0000000,cell,dynamic cell,,dynamic cell,abnormal cell,CL:0001061,abnorma
 cell,CL:0000000,cell,dynamic cell,,dynamic cell,transit amplifying cell,CL:0009010,transit amplifying cell,transit amplifying cell of gut,CL:4047017,transit amplifying cell of gut,transit amplifying cell of colon,CL:0009011,transit amplifying cell of colon,,,,,,,,,,,,,,,,,,,,,,vccf,sc_proteomics
 cell,CL:0000000,cell,other-non-adult,,other-non-adult,extraembryonic cell,CL:0000349,extraembryonic cell,trophoblast cell,CL:0000351,trophoblast cell,extravillous trophoblast,CL:0008036,extravillous trophoblast,extravillous trophoblast:hla-g-positive cd56-positive,CL:0008036,extravillous trophoblast:hla-g-positive cd56-positive,,,,,,,,,,,,,,,,,,,vccf,sc_proteomics
 cell,CL:0000000,cell,cell of skeletal muscle,CL:0000188,cell of skeletal muscle,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,vccf,sc_proteomics
+cell,CL:0000000,cell,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,vccf,sc_proteomics
