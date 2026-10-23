@@ -1,8 +1,4 @@
-# CTs Supertree (lung-azimuth-comparison)
-
-Interactive comparison of **Azimuth** and **Pan-human Azimuth** cell-type
-annotations for human lung datasets, rendered on the CTann v10 cell-type
-supertree and published as a static site on GitHub Pages.
+# CTs Supertree
 
 The site has five tabs. The first is a text page; the rest are interactive
 Cytoscape views:
@@ -15,7 +11,7 @@ Cytoscape views:
 2. **HRApop Comparison** — HRApop v1.1 lung Azimuth vs Pan-human Azimuth
    populations overlaid on the tree.
 3. **HLCA Node Comparison** — Azimuth vs Pan-human Azimuth exact-CL ID
-   predictions across paired HLCA lung partitions.
+   predictions across HLCA lung partitions datasets from HRApopv1.1 workflow.
 4. **Tool Agreement** — where five CTann tools agree or disagree on lung
    cell-type labels (see below).
 
@@ -24,8 +20,8 @@ Cytoscape views:
 Built from the same HRApop CSV as tab 2, using all five CTann tools for
 `organ=lung`, `modality=sc_transcriptomics`: `azimuth`, `celltypist`, `frmatch`,
 `pan-human-azimuth`, `popv`. All five cover all 31 anatomical-structure x sex
-groups, so a tool not calling a cell type is real signal rather than missing
-data. Calls are pooled across groups (presence, any nonzero cell count).
+groups, so a tool not listing a cell type is real signal rather than missing
+data. Annotations are pooled across groups (identifies listing, any nonzero cell count).
 
 Counting tools per exact CL ID is misleading on its own: all five tools see
 macrophages, but only one uses the generic `macrophage` label — the rest scatter
@@ -53,40 +49,13 @@ Curated bands live in `config/agreement.json` as subtree roots and are inherited
 by descendants; a CL ID listed explicitly keeps its own band, so aerocyte stays
 "easy" even though it sits inside the difficult capillary-endothelial subtree.
 
-## Source filtering
-
-The supertree is built from the **included** `CT/1 - Sources` only. The held-out
-names live in `config/reference.json`:
-
-```json
-"sources": {
-  "exclude": ["(blank)"]
-}
-```
-
-Blank-source rows carry no attribution, since their assertions cannot be
-attributed to any resource. Held-out rows are parsed but contribute no nodes or
-edges.
-
-The current `data/ctann-supertree-v10.csv` has no blank-source rows, so nothing is held
-out: all ten sources build the tree and **every one of the 1,187 rows
-contributes**.
-
-Result: **695** cell types, 694 relationships, 382 leaf nodes — from all 1,187
-rows.
-
-Because the three comparison tabs are built on this tree (`base:
-reference`), the filtering propagates to them automatically; all four graph
-views share the same 695-node supertree.
-
-### Source slots
+### Source slots in the Reference Tree view
 
 Each node is a fixed-width bar of ten slots, one per included source, in the
 order declared by `sources.palette`. A slot is filled in that source's colour
 where **that tool stops** — the cell type is in its crosswalk
 (`data/*-crosswalk.csv`, named by `overlay.crosswalks`) and nothing more
-specific beneath it is. Slot *position* carries identity, so colour is
-reinforcement rather than the only channel.
+specific beneath it is.
 
 The bar therefore reads as each tool's **granularity frontier**: the most
 specific call it can make in that lineage. A tool listing both `macrophage` and
@@ -95,29 +64,7 @@ specific call it can make in that lineage. A tool listing both `macrophage` and
 
 **207 of the 695 cell types have a completely pale bar** — 136 are ontology
 ancestors no crosswalk names at all, and 71 are named but always superseded by
-something more specific. 891 slots are filled in all. The tree itself is
-untouched: all 695 nodes and 694 edges are drawn either way.
-
-Membership is stored as a bitmask: with ten sources that is one integer per node
-rather than an array of strings. The bars are painted on the pane's overlay
-canvas, not as graph elements, so they never enter `successors()`, search, or
-hit-testing.
-
-The palette groups the ten sources by modality — five SC-Transcriptomics, five
-SC-Spatial Proteomics & SC-Spatial Omics — and carries a display label per
-source, so the sidebar table reads like the published CTann tool table rather
-than like the CSV's own keys.
-
-### Curated-list overlay
-
-The curated cell-type lists this project validates the tree against are **not
-present in this repository at all**, and the tabs that compare them against the
-tree live in a separate internal repository. `data/ctann-supertree-v10.csv` here carries
-only the ten annotation sources; it is checked on every build that no row
-attributes itself to one of the curated lists.
-
-Holding them out never changed the tree: those rows were always excluded from
-tree construction, so the supertree is the same with or without them.
+something more specific. 891 slots are filled in all.
 
 ## Build
 
