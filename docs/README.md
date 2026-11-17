@@ -48,3 +48,6 @@ The raw Supertree data is available here: [https://github.com/cns-iu/hra-ctann-s
 ## Link to Interactive Supertree Visualization
 The interactive Supertree can be found [here](https://cns-iu.github.io/hra-ctann-supporting-information/supertree/).
 The Supertree source code and usage instructions are in the [/supertree directory](https://github.com/cns-iu/hra-ctann-supporting-information/tree/main/supertree). 
+
+## Preprint
+https://arxiv.org/abs/2611.05888
